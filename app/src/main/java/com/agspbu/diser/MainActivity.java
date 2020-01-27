@@ -48,9 +48,11 @@ public class MainActivity extends AppCompatActivity {
                 if (mss.equals("")){
                     Toast.makeText(getApplicationContext(), "Нельзя отправить пустое сообщение",Toast.LENGTH_SHORT).show();
                     return;
+                    // kokokokok
+
                 }
                 if (mss.length()==100){
-                    Toast.makeText(getApplicationContext(), "Слишком длинное сообщение",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Слишком длинное  сообщение",Toast.LENGTH_SHORT).show();
                     return;
                 }
                 myRef.push().setValue(mss);
