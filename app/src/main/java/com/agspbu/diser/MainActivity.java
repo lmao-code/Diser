@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Нельзя отправить пустое сообщение",Toast.LENGTH_SHORT).show();
                     return;
                     // kokokokok
-
+// sdvjkhsvnjdojln
                 }
                 if (mss.length()==100){
                     Toast.makeText(getApplicationContext(), "Слишком длинное  сообщение",Toast.LENGTH_SHORT).show();
